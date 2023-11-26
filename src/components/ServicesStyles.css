@@ -1,0 +1,52 @@
+.service-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .work-container{
+   width: 100%; 
+   padding: 3rem 1rem;
+   background: #000;
+  }
+  
+  .service-card {
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .service-title {
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .pro-details p {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+  
+  .pro-btn {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+  }
+  
+  .pro-btn .btn{
+      padding: 0.5rem 1rem;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .service-container {
+      grid-template-columns: 1fr;
+      max-width: 90%;
+      margin-top: 2rem;
+    }
+  }
+  
