@@ -35,7 +35,7 @@ const Navbar = () => {
         animate={{ y: -10 }}
         transition={{ type: "spring", stiffness: 120 }}
       >
-        <h1>Tree Service and Gardening</h1>
+        <h1>NLB Tree Service and Gardening LLC</h1>
       </motion.a>
       <motion.ul
         className={click ? "nav-menu active" : "nav-menu "}

@@ -1,6 +1,7 @@
 import "./AboutStyles.css";
 import img1 from "../assets/img1.jpg";
 import img2 from "../assets/img2.jpg";
+import img3 from "../assets/Imagen de WhatsApp 2023-11-26 a las 09.25.15_70d735d2.jpg";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -50,11 +51,14 @@ const About = () => {
               duration: 0.8,
             }}
           >
-            <div className="img-stack top">
+            <div className="img-stack">
               <img src={img1} className="img" alt="Img1" />
             </div>
             <div className="img-stack bottom">
               <img src={img2} className="img" alt="Img2" />
+            </div>
+            <div className="img-stack bottom">
+              <img src={img3} className="img" alt="Img3" />
             </div>
           </motion.div>
         </div>

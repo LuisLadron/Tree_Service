@@ -35,15 +35,15 @@
 }
 
 .right .img-container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  display: flex;
+  flex-direction: row;
   position: relative;
   align-items: center;
   text-align: center;
 }
 
 .right .img {
-  max-width: 50%;
+  max-width: 90%;
   border: 1px solid #333;
 }
 
