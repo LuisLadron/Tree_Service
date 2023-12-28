@@ -3,10 +3,16 @@ import img1 from "../assets/img1.jpg";
 import img2 from "../assets/img2.jpg";
 import img3 from "../assets/Imagen de WhatsApp 2023-11-26 a las 09.25.15_70d735d2.jpg";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   return (
     <>
+      <Helmet>
+        <title>About Tree Service and Gardening LLC</title>
+        <meta name="description" content="NLB tree service about page" />
+        <link rel="canonical" href="nlbtreeserviceandgardering.com" />
+      </Helmet>
       <div className="title" id="about">
         <h1 style={{ color: "#F8D90F", fontSize: "2.4rem" }}>About us</h1>
       </div>
