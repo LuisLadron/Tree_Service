@@ -56,13 +56,21 @@ const Footer = () => {
               now to schedule a free consultation
             </p>
             <div className="social">
-              <a href="https://www.facebook.com/profile.php?id=100090961023946&mibextid=LQQJ4d">
+              <a
+                href="https://www.facebook.com/profile.php?id=100090961023946&mibextid=LQQJ4d"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaFacebook
                   size={20}
                   style={{ color: "#fff", marginRight: "2rem" }}
                 />
               </a>
-              <a href="https://youtube.com/@norbertolainez3256?si=Ml2FikySg-tz3kvE">
+              <a
+                href="https://youtube.com/@norbertolainez3256?si=Ml2FikySg-tz3kvE"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaYoutube
                   size={20}
                   style={{ color: "#fff", marginRight: "2rem" }}

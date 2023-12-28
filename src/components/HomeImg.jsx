@@ -20,6 +20,10 @@ const HomeImg = () => {
           services from pruning to landscaping to make your outdoor space
           beautiful and healthy
         </p>
+        <p>
+          <br />
+          Call: (803) 292-1649
+        </p>
         <div>
           <a href="#about">
             <motion.button
