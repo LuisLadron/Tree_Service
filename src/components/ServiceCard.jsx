@@ -13,8 +13,8 @@ const WorkCard = (props) => {
       </Helmet>
       <motion.div
         className="service-card"
-        initial={{ y: 250 }}
-        whileInView={{ y: -10 }}
+        initial={{ x: -250 }}
+        whileInView={{ x: 0 }}
         transition={{ type: "spring", stiffness: 120 }}
         viewport={{ once: true }}
       >
