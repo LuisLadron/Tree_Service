@@ -23,7 +23,7 @@ const Footer = () => {
             <div className="location">
               <h4>
                 <FaHome
-                  size={20}
+                  size={15}
                   style={{ color: "#F8D90F", marginRight: "2rem" }}
                 />
                 Warrenville SC 29851
@@ -32,7 +32,7 @@ const Footer = () => {
             <div className="phone">
               <h4>
                 <FaPhone
-                  size={20}
+                  size={15}
                   style={{ color: "#F8D90F", marginRight: "2rem" }}
                 />
                 +1 803-292-1649
@@ -41,7 +41,7 @@ const Footer = () => {
             <div className="email">
               <h4>
                 <FaMailBulk
-                  size={20}
+                  size={15}
                   style={{ color: "#F8D90F", marginRight: "2rem" }}
                 />
                 norbertolainez87@icloud.com

@@ -16,7 +16,14 @@ const Services = () => {
       <div className="work-container">
         <div className="service-container">
           {WorkCardData.map((val, index) => {
-            return <WorkCard key={index} title={val.title} text={val.text} />;
+            return (
+              <WorkCard
+                key={index}
+                title={val.title}
+                text={val.text}
+                img={val.img}
+              />
+            );
           })}
         </div>
       </div>

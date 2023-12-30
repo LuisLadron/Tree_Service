@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+  const closeMenu = () => setClick(false);
   const [color, setColor] = useState(false);
   const changeColor = () => {
     if (window.scrollY >= 100) {
@@ -38,21 +39,21 @@ const Navbar = () => {
         <h1>NLB Tree Service and Gardening LLC</h1>
       </motion.a>
       <motion.ul
-        className={click ? "nav-menu active" : "nav-menu "}
+        className={click ? "nav-menu active" : "nav-menu"}
         initial={{ x: "100vw" }}
         animate={{ x: 0 }}
         transition={{ type: "spring", stiffness: 120 }}
       >
-        <li>
+        <li onClick={closeMenu}>
           <a href="#home">Home</a>
         </li>
-        <li>
+        <li onClick={closeMenu}>
           <a href="#about">About</a>
         </li>
-        <li>
+        <li onClick={closeMenu}>
           <a href="#services">Services</a>
         </li>
-        <li>
+        <li onClick={closeMenu}>
           <a href="#contact">Contact</a>
         </li>
       </motion.ul>

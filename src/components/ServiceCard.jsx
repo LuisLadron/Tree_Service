@@ -18,6 +18,7 @@ const WorkCard = (props) => {
         transition={{ type: "spring", stiffness: 120 }}
         viewport={{ once: true }}
       >
+        <img src={props.img} alt="img" />
         <h2 className="service-title">{props.title}</h2>
         <div className="pro-details">
           <p>{props.text}</p>
