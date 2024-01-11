@@ -1,6 +1,7 @@
 import "./HomeImgStyles.css";
 import IntroImg from "../assets/IntroImg.jpg";
 import { motion } from "framer-motion";
+import logo from "../assets/logo.png";
 
 const HomeImg = () => {
   return (
@@ -46,6 +47,13 @@ const HomeImg = () => {
             </motion.button>
           </a>
         </div>
+        <motion.img
+          initial={{ x: 250 }}
+          animate={{ x: 0 }}
+          transition={{ type: "spring", stiffness: 120 }}
+          src={logo}
+          className="logo"
+        />
       </motion.div>
     </motion.div>
   );

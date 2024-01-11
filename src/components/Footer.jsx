@@ -5,6 +5,7 @@ import {
   FaMailBulk,
   FaFacebook,
   FaYoutube,
+  FaGoogle,
 } from "react-icons/fa";
 
 import { Helmet } from "react-helmet-async";
@@ -49,7 +50,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="right">
-            <h4>About the company</h4>
+            <h4 style={{ color: "#F8D90F" }}>About the company</h4>
             <p>
               Serving Augusta and surrounding areas with tree pruning and
               removal services. Low footprint cleanups and fully insured. Call
@@ -63,7 +64,7 @@ const Footer = () => {
               >
                 <FaFacebook
                   size={20}
-                  style={{ color: "#fff", marginRight: "2rem" }}
+                  style={{ color: "#F8D90F", marginRight: "2rem" }}
                 />
               </a>
               <a
@@ -73,7 +74,17 @@ const Footer = () => {
               >
                 <FaYoutube
                   size={20}
-                  style={{ color: "#fff", marginRight: "2rem" }}
+                  style={{ color: "#F8D90F", marginRight: "2rem" }}
+                />
+              </a>
+              <a
+                href="https://www.google.com/search?q=nlb+tree+service+and+gardening&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQ0xMTA1NTg0MDlqMGo3qAIIsAIB&sourceid=chrome&ie=UTF-8"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGoogle
+                  size={20}
+                  style={{ color: "#F8D90F", marginRight: "2rem" }}
                 />
               </a>
             </div>

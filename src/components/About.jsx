@@ -18,7 +18,7 @@ const About = () => {
       </div>
       <div className="about">
         <div className="left">
-          <h1>Who we are?</h1>
+          <h1 style={{ color: "#F8D90F" }}>Who we are?</h1>
           <p>
             We are a family-owned and operated tree and garden company that has
             been serving the Augusta area since 2020. We are passionate about

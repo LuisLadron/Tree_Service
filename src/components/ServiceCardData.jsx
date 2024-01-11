@@ -1,6 +1,6 @@
 import img1 from "../assets/removal.jpg";
 import img2 from "../assets/pruning.jpg";
-import img3 from "../assets/planting.jpg";
+import img3 from "../assets/landscaping.png";
 
 const ServiceCardData = [
   {
@@ -14,8 +14,8 @@ const ServiceCardData = [
     img: img2,
   },
   {
-    title: "Tree planting and transplanting:",
-    text: "Select and plant new trees that are suitable for their soil, climate, and landscape design. Also relocate existing trees that need more space or a different environment.",
+    title: "LandScaping",
+    text: "We offer a service to modify the visible features of an area of land, which includes living elements such as flora and fauna, abiotic elements such as landforms, terrain shape and elevation, or bodies of water. We can help our clients to improve the aesthetic appearance of their property.",
     img: img3,
   },
 ];

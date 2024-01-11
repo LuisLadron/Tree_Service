@@ -47,6 +47,12 @@
   text-transform: uppercase;
 }
 
+.logo{
+  width: 60px;
+  height: 60px;
+  margin-top: 1rem;
+}
+
 .content .btn {
   margin: 1rem 0.2rem;
 }

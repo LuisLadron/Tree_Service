@@ -30,21 +30,29 @@ const Form = () => {
   return (
     <div className="form">
       <form onSubmit={formik.handleSubmit}>
-        <label>Your name</label>
-        <input type="text" {...formik.getFieldProps("name")} />
+        <label>Name: </label>
+        <input
+          type="text"
+          {...formik.getFieldProps("name")}
+          placeholder="Type name"
+        />
         <span className="error-message">
           {formik.touched.name && formik.errors.name ? (
             <div>{formik.errors.name}</div>
           ) : null}
         </span>
-        <label>Email</label>
-        <input type="email" {...formik.getFieldProps("email")} />
+        <label>Email: </label>
+        <input
+          type="email"
+          {...formik.getFieldProps("email")}
+          placeholder="Type email"
+        />
         <span className="error-message">
           {formik.touched.email && formik.errors.email ? (
             <div>{formik.errors.email}</div>
           ) : null}
         </span>
-        <label>Message</label>
+        <label>Message: </label>
         <textarea
           rows="6"
           placeholder="Type your message"
